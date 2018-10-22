@@ -1,0 +1,99 @@
+html {
+  font-family: "Arial", "Hlevetica Neue", Helvetica, sans-serif;
+  color: #777777;
+  /* height: 100%; sticky footer setting */
+  /* margin: 0; sticky footer setting */
+}
+head {
+  margin-top: 0;
+  padding-top: 0;
+}
+header {
+  font-family: "Georgia", Times, Times New Roman, serif;
+  background-color: #ffffff;
+  border-bottom-color: #cccccc;
+  margin: 0 auto;
+  width: 960px;
+}
+#headerDiv {
+  background-color: #ffffff;
+  border-bottom-color: 2px solid #666666;
+  margin: 0;
+}
+
+body {
+  background-image: url(../images/old_moon.png);
+  margin: 0;
+}
+h1 {
+  font-family: "Georgia", Times, Times New Roman, serif;
+  color: #4aaaa5;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#h1Div {
+  padding-left: 10px;
+}
+img {
+  padding: 0 4 0px;
+}
+p {
+  margin: 0 50px;
+}
+
+li {
+  float: right;
+}
+li a {
+  display: block;
+  color: #777777;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+}
+#navLinkMiddle {
+  border-left-color: 2px solid #777777;
+  border-right-color: 2px solid #777777;
+}
+#section1 {
+  float: right;
+  width: 60%;
+  vertical-align: middle;
+}
+
+#container {
+  border: 5px solid #dddddd;
+  background-color: #ffffff;
+  width: 960px;
+  margin: 20px auto;
+  /* min-height: 100%; Sticky footer setting */
+  /* margin-bottom: -50px; Sticky footer setting */
+}
+.footer,
+.push {
+  /* height: 50px;   Sticky foooter setting*/
+}
+#myName {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  float: left;
+  padding: 0 10px;
+}
+hr {
+  width: 95%;
+}
+
+.inlineTiles {
+  display: inline;
+  border: 50px;
+}
+
+footer {
+  border-top: 5px solid #4aaaa5;
+  text-align: center;
+  background-color: #666666;
+}
