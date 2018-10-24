@@ -1,8 +1,6 @@
 html {
   font-family: "Arial", "Hlevetica Neue", Helvetica, sans-serif;
   color: #777777;
-  /* height: 100%; sticky footer setting */
-  /* margin: 0; sticky footer setting */
 }
 head {
   margin-top: 0;
@@ -29,6 +27,26 @@ h1 {
   font-family: "Georgia", Times, Times New Roman, serif;
   color: #4aaaa5;
 }
+.formDiv {
+  width: 95%;
+  margin: 20px auto;
+}
+
+.singleLine {
+  width: 100%;
+}
+#submitMe {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px auto 10px 25px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -41,9 +59,6 @@ ul {
 img {
   padding: 0 4 0px;
 }
-p {
-  margin: 0 50px;
-}
 
 li {
   float: right;
@@ -55,14 +70,16 @@ li a {
   padding: 25px 16px;
   text-decoration: none;
 }
+li:hover {
+  background-color: #000;
+  color: #fff;
+}
+a:hover {
+  color: #fff;
+}
 #navLinkMiddle {
   border-left-color: 2px solid #777777;
   border-right-color: 2px solid #777777;
-}
-#section1 {
-  float: right;
-  width: 60%;
-  vertical-align: middle;
 }
 
 #container {
@@ -70,12 +87,22 @@ li a {
   background-color: #ffffff;
   width: 960px;
   margin: 20px auto;
-  /* min-height: 100%; Sticky footer setting */
-  /* margin-bottom: -50px; Sticky footer setting */
 }
-.footer,
-.push {
-  /* height: 50px;   Sticky foooter setting*/
+#myPic {
+  float: left;
+  margin: 5px 30px 10px 0;
+}
+#mainSection {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.footer {
+  float: clear;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 40px;
 }
 #myName {
   background-color: #4aaaa5;
@@ -87,13 +114,58 @@ hr {
   width: 95%;
 }
 
-.inlineTiles {
-  display: inline;
-  border: 50px;
-}
-
 footer {
   border-top: 5px solid #4aaaa5;
   text-align: center;
   background-color: #666666;
+}
+
+#submitMsg {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#return {
+  width: 25%;
+  margin: 0 auto;
+}
+.left {
+  position: absolute;
+  /* top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  background-color: #4aaaa5;
+  width: 200px;
+  padding: 16px 0;
+  text-align: center;
+  color: #fff;
+  float: left;
+}
+.right {
+  position: absolute;
+  /* top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  background-color: #4aaaa5;
+  width: 200px;
+  padding: 16px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.tiles {
+  /* position: relative; */
+  padding: 10px;
+}
+.ltiles {
+  /* position: relative; */
+  float: left;
+  padding: 10px;
+  margin-left: 10px;
+}
+.inlineTiles {
+  /* display: inline-block; */
+  /* border: 50px; */
+  position: relative;
+  text-align: center;
 }

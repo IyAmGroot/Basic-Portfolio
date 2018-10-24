@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>
-        About Me
+        Contact Me
     </title>
     <link rel="stylesheet" href="../Basic-Portfolio/assets/css/styles.css">
 
@@ -30,11 +30,37 @@
             </div>
         </header>
     </div>
+    <div id="container">
+        <div id="h1Div">
+            <h1>Portfolio</h1>
+        </div>
+        <hr>
+        <form action="formSubmitted.html">
+            <div class="formDiv">
+                <label for="userName">Name</label>
+                <br>
+                <input class="singleLine" type="text" id="userName" placeholder="Enter Your Name Here">
+            </div>
+            <div class="formDiv">
+                <label for="userEmail">Email</label>
+                <br>
+                <input class="singleLine" type="email" id="userEmail" placeholder="ExampleEmail@gmail.com">
+            </div>
+            <div class="formDiv">
+                <label for="userMessage">Message</label>
+                <br>
+                <textarea id="userMessage" class="singleLine" cols="40" rows="10"></textarea>
+            </div>
+            <div>
+                <input id="submitMe" type="Submit" value="Submit">
+            </div>
+        </form>
+    </div>
 
-    <div class="push"></div>
     <div>
         <footer class="footer">Copyright &copy;</footer>
     </div>
+
 </body>
 
 </html>
