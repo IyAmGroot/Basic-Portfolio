@@ -62,6 +62,10 @@ img {
 
 li {
   float: right;
+  border-right: 1px solid #666666;
+}
+li:first-child {
+  border-right: 0;
 }
 li a {
   display: block;
@@ -76,10 +80,6 @@ li:hover {
 }
 a:hover {
   color: #fff;
-}
-#navLinkMiddle {
-  border-left-color: 2px solid #777777;
-  border-right-color: 2px solid #777777;
 }
 
 #container {
